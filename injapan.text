@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="none, noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Amazing places in Japan</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<!-- body "PAGE" block -->
+<body class="body-block-base-100vw">
+    <div class="body-document-mw1440">
+		<!-- body "WRAP" block -->
+        <div class="body-wrapper-mw1280">
+			<!-- header "HERO" block -->
+            <header class="header-block-mw1280">
+                <div class="header-wrapper-mv1060">
+					<!-- блок для навигации -->
+                    <div class="navigate-block-mv1060">
+                        <div class="navigate-wrapper">
+							<!-- блок меню лого -->
+                            <div class="odigo-logotype">
+                                <a href="index.html" title="Discover Amazing places in Japan">
+                                    <img src="./images/vector/odigo-Logo.svg" alt="Discover Amazing places in Japan">
+                                </a>
+                            </div>
+							<!-- //блок меню лого -->
+							<!-- блок меню ссылок -->
+							<nav class="menu-navigate">
+								<ul class="navigate-list">
+									<li class="list-item">
+										<a href="#!" class="item-link">Articles</a>
+									</li>
+									<li class="list-item">
+										<a href="#!" class="item-link">Locations</a>
+									</li>
+									<li class="list-item">
+										<a href="#!" class="item-link">Videos</a>
+									</li>
+									<li class="list-item">
+										<a href="#!" class="item-link">Sign in</a>
+									</li>
+								</ul>
+							</nav>
+							<!-- //блок меню ссылок -->
+						</div>
+					<!-- //блок для навигации -->
+					</div>
+					<!-- заголовок и анонс -->
+					<div class="header-text">
+						<h1 class="header-title">Discover Amazing places in Japan</h1>
+							<p> Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, 
+							</p>
+					</div>
+					<!-- //заголовок и анонс -->
+					<!-- выбор и поиск -->
+					<div class="header-select-search-block">
+						<form class="header-select-search-form">
+							<fieldset class="header-select-search-field">
+									<p class="header-select-search-wrapper inline-element">
+										<input id="radio1" class="form-radio" type="radio" name="radio_select" value="like_todo">
+										<input id="search1" size="24" class="form-item" type="search" name="like_todo" placeholder="What would you like to do?" onfocus="radio1.checked = true;"></input></input>
+									</p>
+									<p class="header-select-search-wrapper inline-element">
+										<input id="radio2" class="form-radio" type="radio" name="radio_select" value="like_togo">
+										<input id="search2" size="24" class="form-item" type="search" name="like_togo" placeholder="Where would you like to go?" onfocus="radio2.checked = true;"></input></input>
+									</p>
+									<p class="button-submit inline-element">
+										<input class="form-submit" type="submit" value="Search"></input>
+									</p>
+							</fieldset>
+						</form>
+					</div>
+					<!-- //выбор и поиск -->
+                </div>
+            </header>
+			<!-- //header "HERO" block -->
+			<!-- main block -->
+			<main>
+				<section>
+				
+				</section>
+			</main>
+			<!-- //main block -->
+         </div>
+		 <!-- //body "WRAP" block -->
+    </div>
+<!-- //body "PAGE" block -->
+</body>
+</html>

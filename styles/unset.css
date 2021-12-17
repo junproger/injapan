@@ -1,0 +1,141 @@
+/* Unset browsers CSS settings */
+
+html, body, div, p {
+  all: unset;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block; 
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+ol, ul, li {
+  margin: 0;
+  padding: 0;
+	list-style: none;
+}
+
+img {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  width:100%;
+  height: 100%;
+  max-width: 100%;
+  background-color: wheat;
+  font-family: 'Lato';
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #102746;
+}
+
+div.body-window-mw1440 {
+  position: static;
+  width: auto;
+  max-width: 1440px;
+  height: 100vh;
+  background-color: wheat;
+  background: url(../images/image-Hero.jpg) no-repeat;
+  background-size: cover;
+  margin: 0;
+  }
+  
+div.body-wrapper-mw1280 {
+  position: absolute;
+  top: 0px;
+  left: 5.56%;
+  right: 5.56%;
+  width: auto;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+div.navigate-block-mv1060 {
+  position: absolute;
+  top: 56px;
+  left: 7.63%;
+  right: 7.63%;
+  width: 1060px;
+  max-width: 1060px;
+  margin: 0 auto;
+  height: 31px;
+  color: white;
+}
+
+div.navigate-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.div-logotype {
+  position:relative;
+  width: 82px;
+  max-width: 82px;
+  height: 31px;
+}
+
+ul.navigate-list {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+li.list-item {
+  margin-left: 82px;
+}
+
+a.item-link {
+  font-family: 'Lato';
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+a.item-link:hover,
+a.item-link:focus,
+a.item-link:active {
+  opacity: 60%;
+}
+
+div.header-text {
+  position: absolute;
+  top: 177px;
+  left: 0%;
+  right: auto;
+  width: 546px;
+  max-width: 546px;
+  margin: 0 auto;
+  height: 215px;
+}
+
+h1.header-design {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 22px;
+  color: white;
+}

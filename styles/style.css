@@ -1,0 +1,317 @@
+/* Unset browsers CSS settings */
+
+html, 
+head, 
+body, 
+main, 
+div, 
+nav, 
+p {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: block; 
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  max-width: 1440px;
+  height: 100vh;
+  max-height: 5736px;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Lato';
+  font-style: normal;
+  box-sizing: border-box;
+	overflow-y: scroll;
+	overflow-x: hidden;
+  background: wheat;
+  color: #102746;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  display: block; 
+  font-size: 100%;
+  font: inherit;
+}
+
+ol, ul, li {
+  margin: 0;
+  padding: 0;
+list-style: none;
+}
+
+img {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+fieldset, 
+form {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* FONTS STYLE LATO */
+
+/* lato-300 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/lato-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/lato-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/lato-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/lato-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-700 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/lato-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/lato-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-900 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+       url('../fonts/lato-v20-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/lato-v20-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* PAGE */
+.body-block-base-100vw {
+  position: relative;
+  width: 100vw;
+  max-width: 1440px;
+  height: 100vh;
+  max-height: 5736px;
+  background: wheat;
+  color: #102746;
+  margin: 0;
+}
+
+.body-document-mw1440 {
+  position: relative;
+  width: 100vw;
+  max-width: 1440px;
+  height: 100vh;
+  max-height: 5736px;
+  background: url(../images/image-Hero.jpg) no-repeat;
+  background-size: cover;
+  margin: 0;
+  }
+  
+.body-wrapper-mw1280 {
+  position: absolute;
+  top: 0px;
+  left: 5.56%;
+  right: 5.56%;
+  width: 100vw;
+  max-width: 1280px;
+  height: 100vh;
+  max-height: 5736px;
+  margin: 0 auto;
+}
+
+/* HERO */
+.header-block-mw1280 {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  top: 0;
+}
+
+.header-wrapper-mv1060 {
+  position: absolute;
+  top: 56px;
+  left: 13.26%;
+  right: 13.12%;
+  width: 74vw;
+  max-width: 1060px;
+  margin: 0 auto;
+  color: white;
+}
+  
+/* NAV */
+.navigate-block-mv1060 {
+  position: absolute;
+  top: 0.96%;
+  left: 7.7%;
+  right: 7.56%;
+  width: 74vw;
+  max-width: 1060px;
+  margin: 0 auto;
+  color: white;
+}
+
+.navigate-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.odigo-logotype {
+  width: 82px;
+  height: 31px;
+}
+
+/* MENU */
+.navigate-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.list-item {
+  margin-left: calc(100vw/17.6);
+}
+
+.item-link {
+  font-family: 'Lato';
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.item-link:hover,
+.item-link:focus,
+.item-link:active {
+  opacity: 66%;
+}
+
+.header-text {
+  position: absolute;
+  top: 176px;
+  left: 7.7%;
+  right: 48.82%;
+  width: 546px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1080px) {
+	.header-text {
+		width: 419px;
+	}
+}
+
+.header-title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 22px;
+  color: white;
+}
+
+.header-select-search-block {
+	position: absolute;
+	border: 0;
+	left: 7.7%;
+	right: 66.11%;
+	top: 450px;
+	width: 886px;
+  display: block;
+}
+
+.header-select-search-wrapper {
+	border-bottom: 2px solid #bfc0c5;
+	margin-right: 61px;
+	display: block;
+}
+
+.inline-element {
+	display: inline-block;
+}
+
+.form-item {
+	width: 240px;
+	height: 49px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	background: transparent;
+	color: #fff;
+	border: 0;
+}
+
+.form-item::placeholder {
+	color: #fff;
+}
+
+.form-radio {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+    width: 18px;
+    height: 18px;
+}
+
+input[type="radio"] {
+-webkit-appearance: none;
+	-moz-appearance: none;
+		appearance: none;
+    display:inline-block;
+	background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+	background: #fff;
+}
+
+@media (max-width: 1080px) {
+	.header-select-search-block {
+		width: 419px;
+	}
+}
+
+.form-submit {
+	width: 171px;
+	height: 58px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28.8px;
+	background: #1B7DFF;
+	color: #fff;
+	border: 0;
+
+}
+
+.button-submit:hover,
+.button-submit:focus,
+.button-submit:active {
+  opacity: 66%;
+}
